@@ -18,16 +18,18 @@ defineProps({
 </script>
 
 <template>
-  <div
-    class="bg-[#FFF4F9] w-[400px] h-[320px] rounded-[32px] flex items-center p-6"
-  >
-    <div class="flex flex-col items-start gap-4 px-4">
-      <div class="w-[70px] h-[70px]">
-        <component :is="svgIcon" class="w-full h-full" />
-      </div>
-      <div class="flex flex-col gap-2">
-        <h3 class="text-Persian text-3xl font-bold">{{ title }}</h3>
-        <p class="text-2xl font-light leading-8">{{ description }}</p>
+  <div class="bg-[#FFF4F9] rounded-[32px] px-6 py-[28px] lg:px-10 lg:py-6">
+    <div
+      class="flex flex-col lg:text-start lg:items-start lg:justify-center items-center text-center lg:w-[308px] lg:h-[320px] gap-6"
+    >
+      <component :is="svgIcon" class="" />
+      <div class="flex flex-col justify-start gap-2">
+        <h3 class="text-Persian lg:text-[32px] text-[28px] font-bold">
+          {{ title }}
+        </h3>
+        <p class="text-[26px] font-light leading-8">
+          {{ description }}
+        </p>
       </div>
     </div>
   </div>
