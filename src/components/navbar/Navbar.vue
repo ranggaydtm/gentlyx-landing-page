@@ -19,7 +19,6 @@ const menus = computed(() => [
 ]);
 
 const toggleNavbar = () => (navbarOpen.value = !navbarOpen.value);
-console.log(navbarOpen.value);
 </script>
 
 <template>
