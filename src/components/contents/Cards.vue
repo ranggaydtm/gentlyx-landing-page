@@ -27,7 +27,7 @@ defineProps({
         <h3 class="text-Persian lg:text-[32px] text-[28px] font-bold">
           {{ title }}
         </h3>
-        <p class="text-[26px] font-light leading-8">
+        <p class="lg:text-[26px] text-xl font-light lg:px-0 px-6">
           {{ description }}
         </p>
       </div>
