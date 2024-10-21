@@ -7,9 +7,10 @@ import LandingPage from "@pages/LandingPage.vue";
 
 const app = createApp(App);
 
-app.component("Navbar", Navbar);
-app.component("LandingPage", LandingPage);
-app.component("Footer", Footer);
+app
+  .component("Navbar", Navbar)
+  .component("LandingPage", LandingPage)
+  .component("Footer", Footer);
 
 app.mount("#app");
 
